@@ -11,6 +11,9 @@ logs/
 *.lock
 *.js
 !.autod.conf.js
+.nyc_output/
+.travis.yml
+appveyor.yml
 
 app/**/*.js
 test/**/*.js
